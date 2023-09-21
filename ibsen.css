@@ -26,7 +26,6 @@
 }
 
 
-
 .name {
     font-weight: bold;
 }
@@ -39,6 +38,55 @@
 .kaia {
     color: green; 
 }
+
+.mrs-solness {
+    color: purple;
+}
+
+ul.navbar-vertical {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+    
+    width:70px;
+    background-color:red;
+  }
+  
+  ul.navbar-vertical a {
+    display: block; 
+    color:#000;
+  }
+  
+  ul.navbar-vertical a:hover {  
+    background-color: #555;
+    color:white;
+  }
+  
+  ul.navbar-horizontal {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  ul.navbar-horizontal li {
+    float:left;
+    color:#000;
+    background-color:rgb(177, 169, 184);
+  }
+  
+  ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+  }
+  
+  
+  ul.navbar-horizontal a:hover {  
+    background-color: #555;
+    color:white;
+  }
 
 
 
